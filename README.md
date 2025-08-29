@@ -106,4 +106,4 @@ The accompanying script, *aoi\_plot.R*, allows researchers to recreate
 figures in the manuscript.
 
 Output data from the manuscript are on Zenodo
-[here](https://doi.org/10.5281/zenodo.16997585).
+[here](https://doi.org/10.5281/zenodo.16997584).
