@@ -5,8 +5,10 @@ Grace<sup>b</sup>, Alfred Muge<sup>b</sup>, Aime Rankin<sup>b</sup>,
 Matt Jones<sup>b</sup>, Sebastian Dunnett<sup>b</sup>
 
 <sup>a</sup>Smith School of Enterprise and the Environment, University
-of Oxford <sup>b</sup>UN Environment Programme World Conservation
-Monitoring Centre, Cambridge, UK
+of Oxford
+
+<sup>b</sup>UN Environment Programme World Conservation Monitoring
+Centre, Cambridge, UK
 
 > Site-based industrial operations such as mining, oil and gas
 > extraction, and renewable energy development are associated with many
