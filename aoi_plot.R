@@ -299,15 +299,23 @@ wts_plots = ggplot() +
 ###################
 
 # Use some administrative region spatial data from Germany as dummy data
-# Our "site footprint"
-site.footprint = gisco_get_nuts(country="DEU",nuts_level=2) |>
+# Our "site footprint" 
+site.footprint =  gisco_get_nuts(country="DEU",nuts_level=2) |>
   st_transform(8857) |>
   filter(NAME_LATN=="Unterfranken") |>
   mutate(label="Site footprint",
          bf=NA)
 
 # Our "area of influence"
-aoi = gisco_get_countries(country="DEU") |>
+rot = function(a) matrix(c(cos(a), sin(a), -sin(a), cos(a)), 2, 2)
+g = gisco_get_countries(country="DEU")
+gg = st_geometry(g)
+gr = (gg - st_centroid(gg)) * rot(pi/2) * .75 + st_centroid(gg)
+gr = st_as_sf(gr) |>
+  st_set_crs(4326)
+gr = st_set_geometry(gr,"geometry")
+
+aoi =  gr |>
   st_transform(8857) |>
   st_difference(site.footprint) |>
   mutate(label="Actual area of influence for indirect impacts",
@@ -358,5 +366,6 @@ ggsave("outputs/aoi_buffer_plot.pdf",aoi_plot,width=8,height=5,units="in")
 ggsave("outputs/main_plot.png",global_fuzz_plot,width=8,height=5,units="in")
 ggsave("outputs/main_plot_alt.png",global_std_plot,width=8,height=5,units="in")
 ggsave("outputs/supp_plot_bin.png",global_bin_plot,width=8,height=5,units="in")
-ggsave("outputs/aoi_buffer_plot.png",aoi_plot,width=8,height=5,units="in")
 ggsave("outputs/supp_plot_wts.png",wts_plots,width=8,height=5,units="in")
+ggsave("outputs/aoi_buffer_plot.png",aoi_plot,width=8,height=5,units="in")
+
