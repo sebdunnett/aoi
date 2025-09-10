@@ -57,5 +57,6 @@ acquire the six input datasets from source:
 The accompanying script, *aoi_plot.R*, allows researchers to recreate
 figures in the paper.
 
-Output data are on Zenodo
+The archived code at point of acceptance is on Zenodo
+[here](https://doi.org/10.5281/zenodo.17093376) and output data are
 [here](https://doi.org/10.5281/zenodo.16997584).
