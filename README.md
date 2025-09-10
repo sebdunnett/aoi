@@ -32,78 +32,26 @@ Centre, Cambridge, UK
 > decision-making framework to select a buffer that captures their AoI
 > effectively.
 
-This repository contains supporting code for a manuscript in review at
-*Methods in Ecology and Evolution*. A link to this paper will be added
-when/if accepted and published.
+This repository contains supporting code for a manuscript accepted for
+publication at *Methods in Ecology and Evolution*. A link to this paper
+will be added when published.
 
-The processing script, *aoi\_decision\_layer.R* takes six data inputs to
+The processing script, *aoi_decision_layer.R* takes six data inputs to
 produce a raster screening layer that supports the assessment of project
 indirect impacts. To reproduce the analysis, researchers must first
 acquire the six input datasets from source:
 
-<table>
-<colgroup>
-<col style="width: 15%" />
-<col style="width: 48%" />
-<col style="width: 20%" />
-<col style="width: 16%" />
-</colgroup>
-<thead>
-<tr>
-<th>Dataset</th>
-<th>Link</th>
-<th>Variant used</th>
-<th>Copyright</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Global roadless areas</td>
-<td><a
-href="https://roadless.online/data/">https://roadless.online/data/</a></td>
-<td>Global shapefile</td>
-<td>Open Data Commons Open Database Licence (ODbL)</td>
-</tr>
-<tr>
-<td>Global Human Settlement Model grid (GHS-SMOD)</td>
-<td><a
-href="https://human-settlement.emergency.copernicus.eu/download.php?ds=smod">https://human-settlement.emergency.copernicus.eu/download.php?ds=smod</a></td>
-<td>1km in Mollweide projection</td>
-<td>CC BY</td>
-</tr>
-<tr>
-<td>Global gridded GDP data</td>
-<td><a
-href="https://zenodo.org/records/16741980">https://zenodo.org/records/16741980</a></td>
-<td>2020 total GDP at 30arcsecs</td>
-<td>CC BY</td>
-</tr>
-<tr>
-<td>Travel time to cities</td>
-<td><a
-href="https://doi.org/10.6084/m9.figshare.7638134.v4">https://doi.org/10.6084/m9.figshare.7638134.v4</a></td>
-<td>“travel_time_to_cities_9.tif”, i.e. settlements over 50,000</td>
-<td>CC BY</td>
-</tr>
-<tr>
-<td>Global human modification dataset</td>
-<td><a
-href="https://doi.org/10.5281/zenodo.14502572">https://doi.org/10.5281/zenodo.14502572</a></td>
-<td>“HMv20240801_2022s_AA_300.tif”, i.e. all threats combined</td>
-<td>CC BY</td>
-</tr>
-<tr>
-<td>Critical Habitat</td>
-<td><a
-href="https://doi.org/10.34892/snwv-a025">https://doi.org/10.34892/snwv-a025</a></td>
-<td>Basic</td>
-<td>CC BY</td>
-</tr>
-</tbody>
-</table>
+| Dataset | Link | Variant used | Copyright |
+|----|----|----|----|
+| Global roadless areas | <https://roadless.online/data/> | Global shapefile | Open Data Commons Open Database Licence (ODbL) |
+| Global Human Settlement Model grid (GHS-SMOD) | <https://human-settlement.emergency.copernicus.eu/download.php?ds=smod> | 1km in Mollweide projection | CC BY |
+| Global gridded GDP data | <https://zenodo.org/records/16741980> | 2020 total GDP at 30arcsecs | CC BY |
+| Travel time to cities | <https://doi.org/10.6084/m9.figshare.7638134.v4> | “travel_time_to_cities_9.tif”, i.e. settlements over 50,000 | CC BY |
+| Global human modification dataset | <https://doi.org/10.5281/zenodo.14502572> | “HMv20240801_2022s_AA_300.tif”, i.e. all threats combined | CC BY |
+| Critical Habitat | <https://doi.org/10.34892/snwv-a025> | Basic | CC BY |
 
-The accompanying script, *aoi\_plot.R*, allows researchers to recreate
-figures in the manuscript.
+The accompanying script, *aoi_plot.R*, allows researchers to recreate
+figures in the paper.
 
-Output data from the manuscript are on Zenodo
+Output data are on Zenodo
 [here](https://doi.org/10.5281/zenodo.16997584).
