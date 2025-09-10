@@ -10,6 +10,10 @@ of Oxford
 <sup>b</sup>UN Environment Programme World Conservation Monitoring
 Centre, Cambridge, UK
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17093377.svg)](https://doi.org/10.5281/zenodo.17093377)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16997585.svg)](https://doi.org/10.5281/zenodo.16997585)
+
 > Site-based industrial operations such as mining, oil and gas
 > extraction, and renewable energy development are associated with many
 > direct and indirect impacts on biodiversity. Consideration of the full
