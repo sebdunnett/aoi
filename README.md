@@ -36,9 +36,13 @@ Centre, Cambridge, UK
 > decision-making framework to select a buffer that captures their AoI
 > effectively.
 
-This repository contains supporting code for a manuscript accepted for
-publication at *Methods in Ecology and Evolution*. A link to this paper
-will be added when published.
+This repository contains supporting code for the associated paper:
+
+> Narain, D., Bedford, J., Grace, E., Muge, A., Rankin, A., Jones, M.
+> I., & Dunnett, S. (2025). A framework for capturing indirect impacts
+> in site-level screening for biodiversity risks. *Methods in Ecology
+> and Evolution*, 00, 1–11.
+> ![<https://doi.org/10.1111/2041-210X.70162>](https://doi.org/10.1111/2041-210X.70162)
 
 The processing script, *aoi_decision_layer.R* takes six data inputs to
 produce a raster screening layer that supports the assessment of project
@@ -57,6 +61,6 @@ acquire the six input datasets from source:
 The accompanying script, *aoi_plot.R*, allows researchers to recreate
 figures in the paper.
 
-The archived code at point of acceptance is on Zenodo
+The archived code is on Zenodo
 [here](https://doi.org/10.5281/zenodo.17093376) and output data are
 [here](https://doi.org/10.5281/zenodo.16997584).
