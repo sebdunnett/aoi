@@ -10,10 +10,6 @@ of Oxford
 <sup>b</sup>UN Environment Programme World Conservation Monitoring
 Centre, Cambridge, UK
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17093377.svg)](https://doi.org/10.5281/zenodo.17093377)
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16997585.svg)](https://doi.org/10.5281/zenodo.16997585)
-
 > Site-based industrial operations such as mining, oil and gas
 > extraction, and renewable energy development are associated with many
 > direct and indirect impacts on biodiversity. Consideration of the full
@@ -43,6 +39,12 @@ This repository contains supporting code for the associated paper:
 > in site-level screening for biodiversity risks. *Methods in Ecology
 > and Evolution*, 00, 1–11.
 > ![<https://doi.org/10.1111/2041-210X.70162>](https://doi.org/10.1111/2041-210X.70162)
+
+Code:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17093377.svg)](https://doi.org/10.5281/zenodo.17093377)
+
+Data:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16997585.svg)](https://doi.org/10.5281/zenodo.16997585)
 
 The processing script, *aoi_decision_layer.R* takes six data inputs to
 produce a raster screening layer that supports the assessment of project

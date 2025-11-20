@@ -11,15 +11,15 @@ Divya Narain^a^, Jacob Bedford^b^, Elspeth Grace^b^, Alfred Muge^b^, Aime Rankin
 
 ^b^UN Environment Programme World Conservation Monitoring Centre, Cambridge, UK
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17093377.svg)](https://doi.org/10.5281/zenodo.17093377)
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16997585.svg)](https://doi.org/10.5281/zenodo.16997585)
-
 >Site-based industrial operations such as mining, oil and gas extraction, and renewable energy development are associated with many direct and indirect impacts on biodiversity. Consideration of the full range of these impacts when selecting a buffer distance to approximate Area of Influence (AoI) of a project is critical for effective biodiversity risk screening. Indirect impacts, however, are elusive despite often being more extensive than direct ones, both temporally and spatially. There is also limited clarity on the distinction between direct and indirect impacts, leading to the latter either being missed from screening analyses, or misclassified as direct impacts. Here we propose a definition of indirect impacts and a framework for incorporating them in risk and impact analyses. We define indirect impacts as those that are triggered by wider socio-economic and demographic changes induced by the project and not directly by project operations. Indirect impacts manifest through three pathways: increased access to intact ecosystems, increased in-migration and settlement, and increased viability of other economic activity. A range of factors, however, can act as predictors of the likelihood and intensity of indirect impacts and form the basis of a decision-making framework to select a buffer that captures their AoI effectively.
 
 This repository contains supporting code for the associated paper:
 
 >Narain, D., Bedford, J., Grace, E., Muge, A., Rankin, A., Jones, M. I., & Dunnett, S. (2025). A framework for capturing indirect impacts in site-level screening for biodiversity risks. *Methods in Ecology and Evolution*, 00, 1–11. ![https://doi.org/10.1111/2041-210X.70162](https://doi.org/10.1111/2041-210X.70162)
+
+Code: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17093377.svg)](https://doi.org/10.5281/zenodo.17093377)
+
+Data: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16997585.svg)](https://doi.org/10.5281/zenodo.16997585)
 
 The processing script, *aoi_decision_layer.R* takes six data inputs to produce a raster screening layer that supports the assessment of project indirect impacts. To reproduce the analysis, researchers must first acquire the six input datasets from source:
 
